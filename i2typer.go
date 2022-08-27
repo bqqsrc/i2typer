@@ -228,4 +228,5 @@ func bytes2String(data interface{}) string {
 func time2String(data interface{}) string {
 	tm, _ := data.(time.Time)
 	ret := tm.Format("2006-01-02 15:04:05")
+	return ret
 }
